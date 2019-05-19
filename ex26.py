@@ -45,7 +45,7 @@ print(f"This should be five: {five}")
 def secret_formula(started):
     jelly_beans = started * 500
     jars = jelly_beans / 1000
-    crates = jars  100
+    crates = jars * 100
     return jelly_beans, jars, crates
 
 
@@ -67,7 +67,7 @@ print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 people = 20
-cates = 30
+crates = 30
 dogs = 15
 
 
