@@ -11,7 +11,7 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 script, filename = argv
 
-txt = open(filenme)
+txt = open(filename)
 
 print("Here's your file {filename}:")
 print(txt.read())
