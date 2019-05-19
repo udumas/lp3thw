@@ -36,7 +36,7 @@ and requires an explanation
 
 print("--------------")
 print(poem)
-print(--------------")
+print("--------------")
 
 
 five = 10 - 2 + 3 - 6
