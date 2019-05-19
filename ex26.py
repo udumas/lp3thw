@@ -34,12 +34,12 @@ and requires an explanation
 \n\t\twhere there is none.
 """
 
-print("--------------)
+print("--------------")
 print(poem)
 print(--------------")
 
 
-five = 10 - 2 + 3 - 
+five = 10 - 2 + 3 - 6
 print(f"This should be five: {five}"
 
 def secret_formula(started)
