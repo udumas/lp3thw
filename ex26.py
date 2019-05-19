@@ -21,7 +21,7 @@ file_again = input("> ")
 
 txt_again = open(file_again)
 
-print(txt_again_read())
+print(txt_again.read())
 
 
 print("Let's practice everything.")
