@@ -1,13 +1,13 @@
 from sys import argv
-script, the_value = argv
-def while_fun(the_value):
+script, the_value incrementer= argv
+def while_fun(the_value, incrementer):
     i=0
     numbers = []
-    while i < the_value:
+    while i < int(the_value):
         print(f"At the top i is {i}")
         numbers.append(i)
 
-        i+=1
+        i+=int(incrementer)
         print("Numbers now: ", numbers)
         print(f"At the bottom i is {i}")
     return numbers
