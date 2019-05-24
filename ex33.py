@@ -1,5 +1,5 @@
 from sys import argv
-script, the_value incrementer= argv
+script, the_value, incrementer= argv
 def while_fun(the_value, incrementer):
     i=0
     numbers = []
@@ -11,7 +11,7 @@ def while_fun(the_value, incrementer):
         print("Numbers now: ", numbers)
         print(f"At the bottom i is {i}")
     return numbers
-numbers = while_fun(the_value)
+numbers = while_fun(the_value, incrementer)
 print("The Numbers: ")
 
 for num in numbers:
