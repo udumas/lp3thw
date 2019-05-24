@@ -1,4 +1,5 @@
-the_value = 9
+from sys import argv
+script, the_value = argv
 def while_fun(the_value):
     i=0
     numbers = []
@@ -15,4 +16,3 @@ print("The Numbers: ")
 
 for num in numbers:
     print(num)
-    
